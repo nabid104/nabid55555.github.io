@@ -1,0 +1,74 @@
+---
+title: "অল্প কথা"
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    css: styles.css
+    includes:
+      after_body: footer.html
+---
+<body class="literature-page">
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<div class="page-wrapper literature-container">
+
+<!-- ================== POEM 1 ================== -->
+<div class="poem-card">
+
+  <div class="poem-title">জোনাকপাখা</div>
+
+<div class="poem-meta">
+  <span class="author">✒️ Nabid</span>
+  <span class="date">• 2025</span>
+</div>
+
+  <div class="poem-body">
+হয়ত জোনাকিরা চন্দ্র খুঁজে<br>
+যখন জোসনা দেয়নি সাঁই চন্দ্র গানে,<br>
+হয়ত জোনাকিরা আঁধার খুঁজে<br>
+যখন কিনা পথিকের চোখ হয় পূর্ণকালো,<br>
+হয়ত জোনাকিরা শান্ত খুঁজে<br>
+যখন লোকারণ্য হয়ে ওঠে কলহ–কোন্দলে,<br>
+হয়ত জোনাকিরা সবুজ খুঁজে<br>
+যখন মানুষের জ্যোতি থাকে— নীল–নৈরাশ্যে,<br>
+হয়ত জোনাকিরা বিন্যাস খুঁজে<br>
+যখন সাম্য হয়ে ওঠে সুযোগের জয়গান,<br>
+হয়ত জোনাকিরা নিজেদের খোঁজে<br>
+যখন, যখন কিনা সমাজবন্ধতাই মুক্তির খোঁজে।<br><br>
+<b>#জোনাকপাখা</b>
+  </div>
+
+</div>
+
+
+<!-- ================== POEM 2 ================== -->
+<div class="poem-card">
+
+  <div class="poem-title">কালের নাকাল শেষে</div>
+
+<div class="poem-meta">
+  <span class="author">✒️ Nabid</span>
+  <span class="date">• 2025</span>
+</div>
+
+  <div class="poem-body">
+কালের নাকাল শেষে—।<br>
+শীতের গানে, সম্ভব যে হলো আজ।<br>
+গোধূলি লগ্নে। প্রাণখানা ছিল ডেকে—<br>
+অতল গভীরে, বছরজুড়ে।<br>
+মাঘের ডাকে, স্রোতের তানে<br>
+দিয়েছে সাড়া, দরিয়া কিনার সমনে<br>
+অপেক্ষা যে শেষ হলো কাঁদামাটি বলে—<br>
+কাল পেরিয়ে আবার দেখা লাল আভা নয়নে।<br><br>
+<b>#কালের নাকাল</b>
+  </div>
+
+</div>
+
+</div>
+
+</body>

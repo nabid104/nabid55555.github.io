@@ -1,0 +1,49 @@
+<!-- HAMBURGER -->
+<div class="hamburger" onclick="toggleSidebar()">☰</div>
+
+<div id="sidebar" class="sidebar">
+
+  <img src="profile.jpg" class="profile-pic">
+
+  <h4 class="sidebar-name">MD. RAIYAN HASAN NABID</h4>
+  <p class="sidebar-title">Undergraduate Student</p>
+
+  <nav class="sidebar-nav">
+    <a href="index.html">Home</a>
+    <a href="academic.html">Academic</a>
+    <a href="research.html">Research</a>
+    <a href="cv.html">Curriculum Vitae</a>
+    <a href="videos.html">Videos</a>
+    <a href="literature.html">Literature</a>
+  </nav>
+
+  <div class="social-icons">
+    <a href="mailto:nabid1460@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://facebook.com/raiyan3.1416/"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-researchgate"></i></a>
+    <a href="https://linkedin.com/in/raiyanhasan31416"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+  </div>
+
+</div>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script>
+function toggleSidebar() {
+  document.getElementById("sidebar").classList.toggle("show-sidebar");
+}
+
+/* Detect zoom > 110% */
+function checkZoom() {
+  const zoom = window.devicePixelRatio;
+  if (zoom > 1.1) {
+    document.body.classList.add("zoomed-in");
+  } else {
+    document.body.classList.remove("zoomed-in");
+  }
+}
+checkZoom();
+window.addEventListener("resize", checkZoom);
+</script>

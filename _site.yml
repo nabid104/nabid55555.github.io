@@ -1,0 +1,25 @@
+name: "AcademicWebsite"
+output_dir: "_site"
+
+navbar:
+  title: ""
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Academic"
+      href: academic.html
+    - text: "Research"
+      href: research.html
+    - text: "Curriculum Vitae"
+      href: cv.html
+    - text: "Videos"
+      href: videos.html
+    - text: "Literature"
+      href: literature.html
+
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    css: styles.css
+

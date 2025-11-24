@@ -1,0 +1,22 @@
+---
+title: ""
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    css: styles.css
+    includes:
+      in_header:
+        - disable-navbar.html
+        - fontawesome.html
+      before_body: sidebar.html
+      after_body: footer.html
+---
+
+<div class="page-wrapper page-content">
+
+<h1 class="home-title">Welcome</h1>
+
+<p>Your homepage content…</p>
+
+</div>
